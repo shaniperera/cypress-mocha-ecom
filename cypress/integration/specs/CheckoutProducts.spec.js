@@ -45,7 +45,7 @@ describe('Complete checkout of products added to cart', () => {
 
         checkoutSummaryPage.getcheckoutBtn().click();
 
-        deliveryPage.getCountry().type('India');
+        deliveryPage.getCountry().type('Ger');
         deliveryPage.getFirstCountry().click();
         deliveryPage.getTandC().check(({ force: true }));
         deliveryPage.getPurchaseBtn().click();
